@@ -1,0 +1,66 @@
+.nav-link.active{
+    background-color: #1ABC9C !important;
+}html, body {
+  height: 100%;
+  margin: 0;
+}
+.main-color{
+    background-color: #2C3E50; 
+}
+
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* full viewport height */
+}
+
+main {
+  flex: 1; /* pushes footer down */
+  background-color: #1ABC9C;
+  padding-top: 4rem; /* Account for fixed navbar height */
+}
+.home-section{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.about-section{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1ABC9C;
+}
+.portfolio-section{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+}
+.contact-section{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+}
+.hero-image{
+  max-width: 300px;   
+  height: auto; 
+  margin-bottom: 20px;
+}
+
+.home-title {
+  font-size: 3rem;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 10px;
+}
+.home-subtitle {
+  font-size: 1.25rem;
+  color: white;
+}
