@@ -64,3 +64,10 @@ main {
   font-size: 1.25rem;
   color: white;
 }
+.notfound-section{
+       min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+}
